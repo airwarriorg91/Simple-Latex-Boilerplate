@@ -21,4 +21,4 @@ To use this LaTeX template, you need to have a LaTeX distribution installed on y
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/latex-paper-template.git
+git clone https://github.com/airwarriorg91/Simple-Latex-Boilerplate.git
