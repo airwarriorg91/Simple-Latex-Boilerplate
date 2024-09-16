@@ -1,8 +1,7 @@
-# LaTeX Template for Academic Papers
+# Simple-Latex-Boilerplate
 
 ## Overview
-
-This repository provides a LaTeX template for writing academic papers. It includes a basic setup to help you get started quickly with your document formatting, bibliography management, and figure inclusion.
+This repository provides a simple LaTeX template for writing technical papers, assignments and homeworks. It includes a basic setup to help you get started quickly with your document formatting, bibliography management, code-block and figure inclusion.
 
 ## Repository Structure
 
