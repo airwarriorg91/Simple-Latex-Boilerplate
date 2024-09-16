@@ -1,0 +1,51 @@
+# LaTeX specific files
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.dvi
+*.synctex*
+*.pdf
+*.fdb_latexmk
+*.fls
+*.gz
+*.nav
+*.snm
+*.xdv
+_minted-paper
+
+# LaTeX temporary files
+*~
+*.tmp
+*.bak
+*.old
+*.orig
+
+# Specific to TeXShop on macOS
+*.tex~ 
+
+# Mac specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# Compiled files
+*.class
+*.pyc
+*.pyo
+*.pyd
+
+# Others
+*.swp
+*.swo
+*.swn
+*.swo
+
+# Ignore build directories (e.g., if you use a build system)
+build/
+out/

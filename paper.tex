@@ -1,0 +1,71 @@
+% More info on this class can be found on: http://www.ctan.org/pkg/paper.
+\documentclass[12pt,a4paper,oneside]{paper} % Accepts option `twocolumn`.
+%\usepackage{fullpage} % If needed.
+\usepackage{lmodern} % Fonts. Needed somehow, otherwise things break.
+\usepackage[english]{babel} % English language/hyphenation.
+\usepackage[T1]{fontenc} % Use 8-bit output encoding.
+\usepackage[utf8]{inputenc} % Can use UTF-8 in the source files.
+\usepackage[babel]{microtype} % Improves appearance of text.
+\usepackage{url}
+\usepackage{csquotes}
+\usepackage[]{minted}
+\usepackage{amsmath,amsthm, amssymb}
+% Reference sheet: http://merkel.zoneo.net/Latex/natbib.php
+% \usepackage{natbib} % Better references
+% \bibliographystyle{abbrvnat}
+% If possible, it is preferable to directly include PDF images.
+\usepackage{graphicx}
+\graphicspath{{fig/}}
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=false,
+  pdfauthor={Gaurav gupta},
+  pdftitle={Title}
+}
+
+%creates a new question command
+\newcommand{\question}{%
+    \stepcounter{section}% Increment the section counter
+    \section*{Question \thesection}% Print "Question" followed by the updated section number
+    \addcontentsline{toc}{section}{Question \thesection}% Optionally add to the table of contents
+}
+
+
+% Removes double spacing after end of sentence.
+% See: http://practicaltypography.com/one-space-between-sentences.html.
+\frenchspacing
+
+
+\title{Title}
+\subtitle{Subtitle}
+\author{Gaurav Gupta, SC21B026}
+
+% Don't know how this is used. Removing it messes the header.
+\shortauthor{Gaurav}
+\shorttitle{Assignment 1}
+
+\begin{document}
+\maketitle
+
+% \abstract{}
+
+
+\question{}
+\label{sec:intro}
+
+\begin{minted}[linenos, breaklines]{python}
+  Some Code
+\end{minted}
+
+% \begin{figure}[ht]
+%   \centering
+%   \includegraphics[width=0.6\textwidth]{fig.pdf}
+%   \caption{Error for various values of $H_1$ and $H_2$.}
+%   \label{fig:example}
+% \end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \bibliography{paper} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
